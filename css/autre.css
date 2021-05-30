@@ -1,0 +1,16 @@
+main > div {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main > div > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div > section > img {
+    max-width: 300px;
+    padding: 20px 50px;
+}

@@ -1,0 +1,53 @@
+main {
+    margin-top: 70px;
+    border-top: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    background-image: url("../ressources/Hero/HeroUmbrella.jpg");
+    background-position: center;
+}
+
+main > div {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+main > h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px 0;
+    color: #fff;
+}
+
+main > div > section > p {
+    font-size: 1.1em;
+}
+
+main > div > div.ButtonCart {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+main > div > div > a {
+    border: solid 1px #a31010 ;
+    color: #a31010;
+    border-radius: 15px;
+    padding: 5px 5px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+main > div > div > a:hover {
+    border: solid 1px #000 ;
+    color: #000;
+}
+
+.Final {
+    height: 200px;
+    width: 100px;
+    background-color: darksalmon;
+    position: absolute;
+}

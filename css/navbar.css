@@ -1,0 +1,89 @@
+header > nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: var( --navbar-height);
+    background-color: #fff;
+}
+
+/* Logo */
+
+header > nav > a:first-child {
+    display: inline-block;
+    height: 100%;
+}
+
+header > nav > a:first-child > img {
+    height: 100%;
+}
+
+/* Liens */
+
+header > nav > ul {
+	display: flex;
+	align-items: center;
+}
+header > nav > ul a {
+	position: relative;
+	color: inherit;
+	text-decoration: none;
+}
+
+header > nav > ul a:hover::before {
+	content: "#";
+	position: absolute;
+    left: -15px;
+	font-weight: bold;
+}
+
+
+/* Media screen */
+
+/* Desktop */
+
+@media screen and ( min-width: 601px ) {
+	/* menu burger */
+	header > nav > img { 
+		display: none;
+	}
+
+	/* Liste */
+	header > nav > ul {
+		height: 100%;
+	}
+	header > nav > ul li:not( :last-child ) {
+		margin-right: 1.5em;
+	}
+}
+
+/* Smartphone */
+
+@media screen and ( max-width: 600px ) {
+	/* menu burger */
+	header > nav > img { 
+		cursor: pointer;
+		padding: var( --navbar-padding ) 0;
+	}
+
+	/* Liste */
+	header > nav > ul {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		justify-content: space-around;
+        padding: var( --navbar-padding) 15px;
+        border-bottom: 1px solid #fff;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.5);
+        transition: transform .5s ease;
+		font-size: .8em;
+	}
+    header > nav:not( .opened ) > ul {
+		transform: translateX( 100%);
+	}
+
+}

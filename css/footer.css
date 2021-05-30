@@ -1,0 +1,37 @@
+/* Général */
+
+footer {
+    display: flex;
+    padding: 20px 40px;
+    border-top: 1px solid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > section > p {
+    font-size: 0.8em;
+    line-height: 1.3em;
+}
+
+footer > section > a {
+    padding: 0 10px;
+}
+
+footer > section > p > a {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}
+
+/* Smartphone */
+
+@media screen and ( max-width: 600px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer > section {
+        padding: 10px 0px;
+    }
+}

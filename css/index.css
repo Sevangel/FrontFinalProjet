@@ -1,0 +1,28 @@
+/* Main body section */
+
+body > main {
+    display: flex;
+    padding: 10px 100px;  
+}
+
+body > main > section {
+    padding: 20px;
+}
+
+body > main > section > h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+body > main > section > p {
+    line-height: 1.5;
+}
+
+/* Smartphone */
+
+@media screen and ( max-width: 600px ) {
+    body > main {
+        flex-direction: column;
+    }
+}

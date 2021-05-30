@@ -1,0 +1,109 @@
+[
+    {
+        "id" : "0",
+        "name" : "Bottes de pluie en caoutchouc bleues",
+        "description" : "Paire de bottes. Matière caoutchouc. Couleur bleue. Motif à pois blanc.",
+        "image" : "../ressources/Produits/BlueBoots.jpg",
+        "Prix" : "34.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "1",
+        "name" : "Bottes de pluie en caoutchouc rouges",
+        "description" : "Paire de bottes. Matière caoutchouc. Couleur rouge. Motif à pois blanc.",
+        "image" : "chemin image",
+        "Prix" : "34.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "2",
+        "name" : "Bottes de pluie en caoutchouc jaunes",
+        "description" : "Paire de bottes. Matière caoutchouc. Couleur jaune. Motif uni.",
+        "image" : "chemin image",
+        "Prix" : "30.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "3",
+        "name" : "Ciré bleu marine",
+        "description" : "Manteau ciré. Couleur bleue. Motif uni. Motif intérieur uni.",
+        "image" : "chemin image",
+        "Prix" : "50.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "4",
+        "name" : "Ciré rouge",
+        "description" : "Manteau ciré. Couleur rouge. Motif uni. Motif intérieur marinière bleue.",
+        "image" : "chemin image",
+        "Prix" : "50.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "5",
+        "name" : "Ciré jaune",
+        "description" : "Manteau ciré. Couleur jaune. Motif uni. Motif intérieur marinière bleue.",
+        "image" : "chemin image",
+        "Prix" : "55.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "6",
+        "name" : "Imperméable transparent.",
+        "description" : "Manteau imperméable. Couleur transparents. Motif uni. Bordure noire.",
+        "image" : "chemin image",
+        "Prix" : "25.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "7",
+        "name" : "Parapluie bleu",
+        "description" : "Parapluie. Couleur bleue. Motif uni.",
+        "image" : "chemin image",
+        "Prix" : "12.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "8",
+        "name" : "Prapluie rouge",
+        "description" : "Parapluie. Couleur rouge. Motif uni",
+        "image" : "chemin image",
+        "Prix" : "12.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "9",
+        "name" : "Parapluie jaune",
+        "description" : "Parapluie. Couleur jaune. Motif uni.",
+        "image" : "chemin image",
+        "Prix" : "12.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "10",
+        "name" : "Parapluie transparent",
+        "description" : "Parapluie. Couleur transparents. Motif uni.",
+        "image" : "chemin image",
+        "Prix" : "12.00",
+        "Statut" : "Disponible"
+    },
+
+    {
+        "id" : "11",
+        "name" : "Parapluie laisse pour chien transparent",
+        "description" : "Laisse pour chien parapluie. Couleur transparent. Motif uni. Couleur laisse noire.",
+        "image" : "chemin image",
+        "Prix" : "9.00",
+        "Statut" : "Disponible"
+    }
+]

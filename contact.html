@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rain Corporation - Projet - Contact</title>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header>
+        <!-- Barre de navigation -->
+        <nav>
+            <!-- logo -->
+            <a href="index.html" title="Accueil">
+                <img src="ressources/Logo/RedUmbrella.png" alt="Logo de RainCorp">
+            </a>
+            <!-- Menu Burger Smartphone -->
+            <img src="ressources/Menu/menu.svg" alt="Menu Burger">
+            <!-- Liens -->
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="autre.html">Autre</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shop.html">Boutique</a></li>
+            </ul>
+        </nav>
+
+        <!-- Image en Hero -->
+
+        <section class="hero">
+            <h1>Rain Corporation</h1>
+            <a href="#main">Contactez-nous +</a>
+        </section>
+
+    </header>
+
+    <!-- Main -->
+
+    <main class="main" id="main">
+        <h2>Formulaire de contact</h2>
+        <form action="" method="GET" id="form">
+            <input type="email" name="email" placeholder="email@exemple.com" required id="email"><br>
+            <textarea name="Message" id="msg" cols="40" rows="10" maxlength="500" placeholder="Message" required></textarea><br>
+            <select name="Type de message" required id="MessageType">
+                <option value="Réclamation boutique">Réclamation boutique</option>
+                <option value="Bug">Rapporter un bug</option>
+                <option value="Support">Contacter le support</option>
+                <option value="Autre">Autre</option>
+            </select><br>
+            <input type="text" name="Nom ou raison sociale" placeholder="Nom ou Raison sociale" id="Name"><br>
+            <input name="Numéro de téléphone" placeholder="Numéro de téléphone" id="PhoneNumber"><br>
+            <input type="submit" value="Validation">
+        </form>
+        <h2 id="Title2">Mot du support</h2>
+        <p>Madame, Monsieur,</p>
+        <p>Dans le cadre de notre micro-entreprise, le personnel essaie au maximum de se rendre disponible pour vous. C'est pourquoi si vous n'avez pas de réponse du service de contact au bout de deux semaines, nous vous invitons à renvoyer un ticket de contact.</p>
+        <p>Veuillez nous excuser pour la gêne occasionnée !</p>
+        <p>Bien à vous, le support.</p>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <!-- Adresse -->
+
+        <section>
+            <p>Rain Corporation</p>
+            <p>Paris, 75000</p>
+            <p>France</p>
+        </section>
+
+        <!-- Résaux -->
+
+        <section>
+            <a href="" title="Lien vers Instagram"><img src="ressources/Réseaux/instagram.svg" alt="LogoIG"></a>
+            <a href="" title="Lien vers Twitter"><img src="ressources/Réseaux/twitter.svg" alt="LogoTT"></a>
+            <a href="" title="Lien vers Linkedin"><img src="ressources/Réseaux/linkedin.svg" alt="LogoLD"></a>
+        </section>
+
+        <!-- Mentions -->
+
+        <section>
+            <p>Copyright 2021 RainCorp</p>
+            <p><a href="https://fr.wikipedia.org/wiki/Mentions_l%C3%A9gales">Mentions légales</a></p>
+        </section>
+
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

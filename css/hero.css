@@ -1,0 +1,25 @@
+/* Page Hero */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+    background: url("../ressources/Hero/HeroUmbrella.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.hero a {
+    font-size: 2em;
+    color: inherit;
+    text-decoration: none;
+}
